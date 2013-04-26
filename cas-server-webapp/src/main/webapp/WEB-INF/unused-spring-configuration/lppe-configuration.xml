@@ -123,6 +123,7 @@
 	<bean id="passwordPolicyAction" class="org.jasig.cas.web.flow.PasswordPolicyEnforcementAction">
 	  	<property name="passwordPolicyEnforcer" ref="ldapPasswordPolicyEnforcer" />
 	  	<property name="passwordPolicyUrl" value="${ldap.authentication.lppe.password.url}" />
+        <property name="redirectTimeout" value="${ldap.authentication.lppe.redirect.timeout}" />
 	</bean>
 
 	<!--

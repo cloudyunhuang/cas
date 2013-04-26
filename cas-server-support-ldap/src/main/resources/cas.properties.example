@@ -115,3 +115,6 @@ ldap.authentication.lppe.validDays=90
 
 #Url to which the user will be redirected to change the passsword
 ldap.authentication.lppe.password.url=https://password.example.edu/change
+
+#Number of milliseconds the password warning page would wait before redirecting to the service
+ldap.authentication.lppe.redirect.timeout=10000
