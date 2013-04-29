@@ -70,6 +70,11 @@ public final class PasswordPolicyEnforcementAction extends AbstractAction implem
         this.passwordPolicyUrl = passwordPolicyUrl;
     }
 
+    /**
+     * @since 4.0
+     * @param timeout the number of milliseconds the warning page should
+     *                wait before redirecting to the service
+     */
     public void setRedirectTimeout(final long timeout) {
         this.redirectTimeout = timeout;
     }
